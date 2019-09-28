@@ -1,22 +1,12 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Navigation from './components/Navigation'
+import Navigation from './Components/Navigation'
+import Home from "./Pages/Home.js";
 
 class App extends Component {
   render() {
-    return (
-    	<div>
-      <Navigation />
-      <div className="App">
-        <header className="App-header">
-          <p>
-            Blakk is better.
-          </p>
-        </header>
-      </div>
-      </div>
-    );
+    return <Home />;
   }
 }
 export default App;
