@@ -7,10 +7,25 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Blakk is better.
-        </p>
       </header>
+      <body>
+        <nav class="navbar navbar-expand-md">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Professions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Weather</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+        </nav>
+      </body>
     </div>
   );
 }
